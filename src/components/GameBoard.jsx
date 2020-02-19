@@ -143,7 +143,7 @@ export default props => {
     useEffect(() => {
         const { gameStatus } = props;
 
-        // Initialise game
+        // Initialize game
         if (
             gameStatus === GAME_STATUS.CREATING ||
             gameStatus === GAME_STATUS.RESETTING
