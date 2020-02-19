@@ -4,12 +4,10 @@ import classnames from "classnames";
 
 import { CARD_STATUS, CARD_SIZES } from "../constants";
 
-import image from "../assets/placeholder.jpg";
-
 const useStyles = createUseStyles({
     card: {
         padding: 5,
-        borderRadius: 5,
+        borderRadius: 10,
         height: CARD_SIZES.height,
         width: CARD_SIZES.width,
         border: "black 5px solid",
